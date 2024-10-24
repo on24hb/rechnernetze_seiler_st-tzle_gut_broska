@@ -47,3 +47,8 @@ h1 {
 	text-align: center;
 	color: red;
 }
+.h2-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
