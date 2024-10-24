@@ -21,3 +21,25 @@ header {
 	height: 100px;
 	background: rgba(255,213,213,0.8);
 }
+header nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	color: #5c6971;
+	line-height: 100px;
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+header nav ul li:hover a {
+	background: #e2001a;
+	color: #fff;
+}
